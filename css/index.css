@@ -12,6 +12,35 @@ body
 
 }
 
+.blur{
+	display: inline-block;
+   background-color: #ccc; /*shadow color*/
+   color: transparent;
+   margin-left: 4px;
+   margin-top: 4px;
+   width: 224px;
+}
+.shadow, .content{
+   position: relative;
+   bottom: 2px;
+   right: 2px;
+}
+.shadow{
+	display: inline-block;
+   background-color: #666; /*shadow color*/
+   color: inherit;
+}
+.content{
+	display: inline-block;
+   background-color: #fff; /*background color of content*/
+   color: transparent; /*text color of content*/
+   border: 1px solid #000; /*border color*/
+   padding: .5em 2ex;
+}
+.content IMG{
+	display: inline-block;
+   border: 1px solid transparent;
+}
 #espacial
 {
 	clear:inline-end;
@@ -19,12 +48,12 @@ body
 #espacial a{
 	position: relative;
 	display: inline-block;
-	padding: 15px 30px;
+	padding: 10px 15px;
 	color: #E1DACE;/**#2196f3;**/
 	text-transform: uppercase; 
 	letter-spacing:  4px;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 20px;
 	overflow: hidden;
 	transition: 0.2s;
 	/**clear:both; **/	
@@ -119,4 +148,49 @@ body
 	transition-delay: 0.75s;
 	/*clear:both;*/ 
 
+}
+
+#little
+{
+
+	clear:both;/**inline-end;**/
+}
+
+#little a{
+		position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+	color: #E1DACE;/**#2196f3;**/
+	letter-spacing:  1px;
+	text-decoration: none;
+	font-size: 15px;
+	overflow: hidden;
+	
+	/**clear:both; **/	
+}
+
+#little a:hover{
+	color:#0F0B03;
+	background: #E1DACE;
+	/**clear:both;**/ 
+}
+#limpio{
+	clear:left;
+}
+
+#limpio a{
+	position: flex;
+	display: inline-block;
+	padding: none;
+	color: #E1DACE;/**#2196f3;**/
+	text-transform: none; 
+	letter-spacing: 2px;
+	text-decoration: none;
+	font-size: 5px;
+	overflow: hidden;
+	transition: none;
+}
+#limpio a:hover{
+	color:#0F0B03;
+	background: #E1DACE;
 }
