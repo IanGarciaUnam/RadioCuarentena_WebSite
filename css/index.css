@@ -13,8 +13,8 @@ body
 }
 
 .blur{
-	display: inline-block;
-   background-color: #ccc; /*shadow color*/
+	display: inline;
+   background-color: transparent; /*shadow color*/
    color: transparent;
    margin-left: 4px;
    margin-top: 4px;
@@ -27,14 +27,14 @@ body
 }
 .shadow{
 	display: inline-block;
-   background-color: #666; /*shadow color*/
-   color: inherit;
+   background-color: transparent; /*shadow color*/
+  
 }
 .content{
 	display: inline-block;
-   background-color: #fff; /*background color of content*/
+   background-color: transparent; /*background color of content*/
    color: transparent; /*text color of content*/
-   border: 1px solid #000; /*border color*/
+   border: 1px solid transparent; /*border color*/
    padding: .5em 2ex;
 }
 .content IMG{
